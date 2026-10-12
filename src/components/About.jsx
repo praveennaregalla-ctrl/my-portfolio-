@@ -107,7 +107,7 @@ const About = () => {
             <div className="space-y-5 relative z-10">
               <h3 className="text-xs font-mono uppercase tracking-widest text-red-500 font-bold">Cast & Background</h3>
               <p className="text-lg md:text-xl font-medium text-white/90 leading-relaxed">
-                I am <span className="text-white font-bold drop-shadow">Praveen Naregalla</span>, a Python full-stack developer with a B.E. in Computer Science and Engineering from Tontadarya College of Engineering, Gadag.
+                I am <span className="text-white font-bold drop-shadow">Praveen Naregalla</span>, a Python full-stack developer and a final-year (4th year) B.E. student in Computer Science and Engineering at Tontadarya College of Engineering, Gadag.
               </p>
               <p className="text-sm md:text-base text-white/60 font-light leading-relaxed">
                 I like turning real problems into working software. I built a Fake News Detection project to tackle misinformation, and I'm now building Smart Placement Companion, a tool to help students prepare for and navigate campus placements.
