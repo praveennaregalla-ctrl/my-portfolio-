@@ -38,6 +38,14 @@ const Footer = () => {
             >
               GitHub //
             </a>
+            <a
+              href="https://www.linkedin.com/in/praveen-naregalla-7a0924293"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-red-500 transition-colors uppercase tracking-wider"
+            >
+              LinkedIn //
+            </a>
           </div>
 
           <div className="text-white/40 tracking-widest uppercase">
