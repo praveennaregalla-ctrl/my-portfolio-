@@ -17,8 +17,8 @@ const projectsData = [
   {
     title: "Smart Placement Companion",
     category: "Full-Stack Development",
-    description: "Currently in development. Full details coming soon.",
-    tags: ["In Development"],
+    description: "A comprehensive platform to help students prepare for placements efficiently with resume analysis, mock interviews, and curated resources.",
+    tags: ["React", "Django", "Machine Learning"],
     status: "In Progress",
     episode: "S01 E02"
   }
