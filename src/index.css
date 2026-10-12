@@ -35,3 +35,57 @@ body {
   90% { transform: translateY(-15px); opacity: 1; }
   100% { transform: translateY(0); opacity: 1; }
 }
+
+/* ------------------------------------------------------------------
+   Spatial UI: translucent glass surfaces with a luminous edge,
+   layered depth shadows and a soft red ambient glow.
+   Styling only. No transforms, so GSAP animations are untouched.
+   ------------------------------------------------------------------ */
+.spatial-glass {
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.09) 0%, rgba(255, 255, 255, 0.025) 38%, rgba(20, 20, 20, 0.55) 100%),
+    rgba(20, 20, 20, 0.62);
+  -webkit-backdrop-filter: blur(28px) saturate(170%);
+  backdrop-filter: blur(28px) saturate(170%);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.2),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.45),
+    0 2px 4px rgba(0, 0, 0, 0.45),
+    0 24px 48px -12px rgba(0, 0, 0, 0.75),
+    0 48px 96px -32px rgba(229, 9, 20, 0.2);
+  transition: border-color 0.5s ease, box-shadow 0.5s ease, background 0.5s ease;
+}
+
+.spatial-glass:hover {
+  border-color: rgba(229, 9, 20, 0.5);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.28),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.45),
+    0 2px 4px rgba(0, 0, 0, 0.45),
+    0 28px 56px -12px rgba(0, 0, 0, 0.8),
+    0 56px 110px -28px rgba(229, 9, 20, 0.38);
+}
+
+/* Red-tinted edge for hero accents */
+.spatial-glass--accent {
+  border-color: rgba(229, 9, 20, 0.4);
+}
+
+/* Edge and depth only, for surfaces that keep their own gradient background */
+.spatial-edge {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.16),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.45),
+    0 2px 4px rgba(0, 0, 0, 0.45),
+    0 24px 48px -12px rgba(0, 0, 0, 0.75),
+    0 40px 80px -30px rgba(229, 9, 20, 0.16);
+}
+
+@media (max-width: 768px) {
+  .spatial-glass {
+    -webkit-backdrop-filter: blur(18px) saturate(150%);
+    backdrop-filter: blur(18px) saturate(150%);
+  }
+}

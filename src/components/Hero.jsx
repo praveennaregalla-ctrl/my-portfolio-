@@ -262,7 +262,7 @@ const Hero = () => {
               <div className="absolute -inset-3 bg-gradient-to-r from-red-600/70 via-rose-600/40 to-purple-600/20 rounded-3xl blur-3xl opacity-90 group-hover:opacity-100 animate-pulse duration-1000"></div>
               
               {/* Poster Card with Glossy Sheen */}
-              <div className="relative w-[280px] md:w-[320px] p-3.5 bg-[#141414]/90 backdrop-blur-2xl rounded-2xl border border-red-600/40 shadow-[0_40px_80px_rgba(0,0,0,0.95)] overflow-hidden">
+              <div className="relative w-[280px] md:w-[320px] p-3.5 spatial-glass spatial-glass--accent rounded-[28px] overflow-hidden">
                 
                 {/* Dynamic Specular Glare Layer */}
                 <div 
@@ -286,7 +286,7 @@ const Hero = () => {
 
           {/* Right Side: Technical Specs & Stack */}
           <div className="hero-anim-item lg:col-span-3 flex flex-col items-start lg:items-end space-y-4 text-left lg:text-right">
-            <div className="p-5 bg-black/80 backdrop-blur-2xl border border-white/15 rounded-xl shadow-2xl max-w-xs">
+            <div className="p-5 spatial-glass rounded-2xl max-w-xs">
               <h3 className="text-xs font-mono uppercase tracking-widest text-red-500 font-bold mb-2">Featured Projects</h3>
               <p className="text-xs text-white/80 leading-relaxed font-light">
                 Fake News Detection (built). Smart Placement Companion (in progress).
@@ -319,7 +319,7 @@ const Hero = () => {
         <div className="text-2xl font-black text-red-600 tracking-tighter flex items-center gap-2 drop-shadow-[0_2px_15px_rgba(229,9,20,0.9)]">
           PRAVEEN<span className="w-1.5 h-1.5 rounded-full bg-white inline-block"></span>
         </div>
-        <nav className="hidden md:flex items-center gap-8 text-xs font-mono uppercase tracking-widest text-white/80">
+        <nav className="hidden md:flex items-center gap-8 px-8 py-3 spatial-glass rounded-full text-xs font-mono uppercase tracking-widest text-white/80">
           <a href="#home" className="hover:text-red-500 transition-colors">Home</a>
           <a href="#about" className="hover:text-red-500 transition-colors">About</a>
           <a href="#expertise" className="hover:text-red-500 transition-colors">Expertise</a>
