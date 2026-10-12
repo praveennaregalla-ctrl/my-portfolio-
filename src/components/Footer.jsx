@@ -31,33 +31,17 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 text-xs font-mono text-white/60">
           <div className="flex items-center gap-6">
             <a 
-              href="https://github.com" 
-              target="_blank" 
+              href="https://github.com/praveennaregalla-ctrl"
+              target="_blank"
               rel="noopener noreferrer"
               className="hover:text-red-500 transition-colors uppercase tracking-wider"
             >
               GitHub //
             </a>
-            <a 
-              href="https://linkedin.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="hover:text-red-500 transition-colors uppercase tracking-wider"
-            >
-              LinkedIn //
-            </a>
-            <a 
-              href="https://leetcode.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="hover:text-red-500 transition-colors uppercase tracking-wider"
-            >
-              LeetCode //
-            </a>
           </div>
 
           <div className="text-white/40 tracking-widest uppercase">
-            LOCATION: ANDHRA PRADESH, IN
+            LOCATION: INDIA
           </div>
         </div>
 
