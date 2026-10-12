@@ -107,17 +107,17 @@ const About = () => {
             <div className="space-y-5 relative z-10">
               <h3 className="text-xs font-mono uppercase tracking-widest text-red-500 font-bold">Cast & Background</h3>
               <p className="text-lg md:text-xl font-medium text-white/90 leading-relaxed">
-                I am <span className="text-white font-bold drop-shadow">Dasari Venkata Ratna Sri Sushmita</span>, a B.Tech student in Artificial Intelligence and Machine Learning at Aditya Engineering College.
+                I am <span className="text-white font-bold drop-shadow">Praveen Naregalla</span>, a Python full-stack developer with a B.E. in Computer Science and Engineering from Tontadarya College of Engineering, Gadag.
               </p>
               <p className="text-sm md:text-base text-white/60 font-light leading-relaxed">
-                My technical narrative bridges rigorous algorithmic problem-solving with full-stack software architecture, translating complex backend logic into seamless, high-performance interfaces.
+                I like turning real problems into working software. I built a Fake News Detection project to tackle misinformation, and I'm now building Smart Placement Companion, a tool to help students prepare for and navigate campus placements.
               </p>
             </div>
-            
+
             <div className="pt-8 flex flex-wrap gap-2 relative z-10">
-              <span className="px-3.5 py-1.5 rounded bg-white/5 border border-white/10 text-xs font-mono text-white/80">AI & ML</span>
+              <span className="px-3.5 py-1.5 rounded bg-white/5 border border-white/10 text-xs font-mono text-white/80">Python</span>
               <span className="px-3.5 py-1.5 rounded bg-white/5 border border-white/10 text-xs font-mono text-white/80">Full-Stack Development</span>
-              <span className="px-3.5 py-1.5 rounded bg-white/5 border border-white/10 text-xs font-mono text-white/80">System Architecture</span>
+              <span className="px-3.5 py-1.5 rounded bg-white/5 border border-white/10 text-xs font-mono text-white/80">Computer Science & Engineering</span>
             </div>
           </div>
 
@@ -139,19 +139,19 @@ const About = () => {
             </div>
             
             <div className="space-y-5 relative z-10">
-              <h3 className="text-xs font-mono uppercase tracking-widest text-red-500 font-bold">Milestones & Accolades</h3>
+              <h3 className="text-xs font-mono uppercase tracking-widest text-red-500 font-bold">Milestones & Projects</h3>
               <ul className="space-y-3.5 text-sm text-white/80 font-light">
                 <li className="flex items-start gap-2.5">
                   <span className="text-red-500 font-bold">&#8250;</span>
-                  <span>National Semi-Finalist in <strong className="text-white">Flipkart GRiD 7.0</strong> competition.</span>
+                  <span>Built <strong className="text-white">Fake News Detection</strong>, a project to spot misleading news.</span>
                 </li>
                 <li className="flex items-start gap-2.5">
                   <span className="text-red-500 font-bold">&#8250;</span>
-                  <span>Member of the elite <strong className="text-white">AlgoUniversity Tech Fellowship</strong> for advanced data structures.</span>
+                  <span>Currently building <strong className="text-white">Smart Placement Companion</strong>.</span>
                 </li>
                 <li className="flex items-start gap-2.5">
                   <span className="text-red-500 font-bold">&#8250;</span>
-                  <span>Certified <strong className="text-white">GitHub Foundations</strong> & <strong className="text-white">AWS Certified AI Practitioner</strong>.</span>
+                  <span>More achievements and certifications coming soon.</span>
                 </li>
               </ul>
             </div>
@@ -175,12 +175,12 @@ const About = () => {
             ></div>
 
             <div className="space-y-2 text-left relative z-10">
-              <h3 className="text-xs font-mono uppercase tracking-widest text-red-500 font-bold">Production Tech Stack</h3>
-              <p className="text-base md:text-lg font-semibold text-white">Equipped with industry-grade instruments for robust scaling.</p>
+              <h3 className="text-xs font-mono uppercase tracking-widest text-red-500 font-bold">Tech Stack</h3>
+              <p className="text-base md:text-lg font-semibold text-white">The tools I build with.</p>
             </div>
-            
+
             <div className="flex flex-wrap items-center gap-3 relative z-10">
-              {['React', 'Node.js', 'Express', 'PostgreSQL', 'MongoDB', 'Docker', 'JavaScript'].map((tech, idx) => (
+              {['Python', 'Full-Stack'].map((tech, idx) => (
                 <span
                   key={idx}
                   className="px-4 py-2 rounded bg-white/[0.04] border border-white/10 text-xs font-mono uppercase tracking-wider text-white shadow-inner hover:bg-red-600/20 hover:border-red-600/40 hover:scale-105 transition-all"
