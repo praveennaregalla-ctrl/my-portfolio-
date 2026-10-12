@@ -109,8 +109,14 @@ const About = () => {
               <p className="text-lg md:text-xl font-medium text-white/90 leading-relaxed">
                 I am <span className="text-white font-bold drop-shadow">Praveen Naregalla</span>, a Python full-stack developer and a final-year (4th year) B.E. student in Computer Science and Engineering at Tontadarya College of Engineering, Gadag.
               </p>
+              <p className="text-sm md:text-base text-white/70 font-light leading-relaxed">
+                I am a passionate Full Stack Developer and Computer Science Engineering student dedicated to crafting high-performance, elegant, and user-centric applications.
+              </p>
               <p className="text-sm md:text-base text-white/60 font-light leading-relaxed">
-                I like turning real problems into working software. I built a Fake News Detection project to tackle misinformation, and I'm now building Smart Placement Companion, a tool to help students prepare for and navigate campus placements.
+                My expertise lies in bridging the gap between robust backend architectures and sleek, interactive user interfaces. With hands-on experience in Python, React, Django, SQL, and modern frontend technologies, I build applications that are not just functional, but scalable and secure.
+              </p>
+              <p className="text-sm md:text-base text-white/60 font-light leading-relaxed">
+                I thrive on turning complex problems into simple, beautiful, and efficient code. Whether optimizing database queries, building machine learning models, or crafting responsive interfaces, I approach software engineering with a commitment to continuous learning and technical excellence.
               </p>
             </div>
 
@@ -180,7 +186,7 @@ const About = () => {
             </div>
 
             <div className="flex flex-wrap items-center gap-3 relative z-10">
-              {['Python', 'Full-Stack'].map((tech, idx) => (
+              {['Python', 'Django', 'React', 'SQL', 'Machine Learning'].map((tech, idx) => (
                 <span
                   key={idx}
                   className="px-4 py-2 rounded bg-white/[0.04] border border-white/10 text-xs font-mono uppercase tracking-wider text-white shadow-inner hover:bg-red-600/20 hover:border-red-600/40 hover:scale-105 transition-all"
