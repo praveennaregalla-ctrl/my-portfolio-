@@ -5,41 +5,29 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
 const skillCategories = [
-  { 
-    title: 'Frontend Engineering', 
-    desc: 'Crafting responsive and interactive user interfaces using React, JavaScript, HTML5, CSS3, and Tailwind CSS.', 
+  {
+    title: 'Core Technologies',
+    desc: 'The foundation I build every project on, from the page the user sees to the database behind it.',
+    tag: 'FOUNDATION',
+    skills: ['HTML', 'CSS', 'JavaScript', 'Python', 'SQL', 'React']
+  },
+  {
+    title: 'Frontend Engineering',
+    desc: 'Crafting responsive, interactive and user-centric interfaces with React and modern frontend technologies.',
     tag: 'UI / INTERACTION',
-    skills: ['React', 'JavaScript', 'Tailwind CSS', 'HTML5', 'CSS3'] 
+    skills: ['React', 'JavaScript', 'HTML', 'CSS']
   },
-  { 
-    title: 'Backend & Databases', 
-    desc: 'Building secure REST APIs, authentication flows, server-side applications, and high-performance database architectures.', 
+  {
+    title: 'Backend & Databases',
+    desc: 'Building robust, scalable and secure backends with Python and Django, and optimizing database queries in SQL.',
     tag: 'ARCHITECTURE',
-    skills: ['Node.js', 'Express', 'PostgreSQL', 'MongoDB', 'DQL'] 
+    skills: ['Python', 'Django', 'SQL']
   },
-  { 
-    title: 'AI & Machine Learning', 
-    desc: 'Developing intelligent applications leveraging NLP, generative AI workflows, computer vision, and LLM systems.', 
+  {
+    title: 'Machine Learning',
+    desc: 'Building machine learning models in Python and putting them to work inside real applications.',
     tag: 'INTELLIGENCE',
-    skills: ['NLP', 'Generative AI', 'Computer Vision', 'LLMs', 'AWS AI'] 
-  },
-  { 
-    title: 'Cloud & DevOps', 
-    desc: 'Deploying and scaling production-grade applications using Docker containers, GitHub Actions, and CI/CD pipelines.', 
-    tag: 'INFRASTRUCTURE',
-    skills: ['Docker', 'GitHub', 'CI/CD Pipelines', 'Render', 'Docker Hub'] 
-  },
-  { 
-    title: 'Algorithmic Problem Solving', 
-    desc: 'Optimizing data structures and solving complex algorithmic challenges across competitive programming platforms.', 
-    tag: 'COMPETITIVE',
-    skills: ['Data Structures', 'Algorithms', 'LeetCode', 'CodeChef', 'GFG'] 
-  },
-  { 
-    title: 'Tools & Ecosystem', 
-    desc: 'Equipped with industry-grade instruments for version control, productivity extensions, and workflow management.', 
-    tag: 'PRODUCTIVITY',
-    skills: ['Git', 'Chrome APIs', 'Adobe Express', 'Google Cloud', 'VS Code'] 
+    skills: ['Python', 'Machine Learning']
   },
 ];
 
@@ -220,7 +208,7 @@ const Skills = () => {
                 {category.tag}
               </span>
               <span className="text-xs font-mono text-white/40">
-                [ 0{i + 1} / 06 ]
+                [ {String(i + 1).padStart(2, '0')} / {String(skillCategories.length).padStart(2, '0')} ]
               </span>
             </div>
 
