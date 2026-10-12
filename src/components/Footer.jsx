@@ -46,6 +46,13 @@ const Footer = () => {
             >
               LinkedIn //
             </a>
+            <a
+              href="/Praveen_Naregalla_Resume.pdf"
+              download="Praveen_Naregalla_Resume.pdf"
+              className="hover:text-red-500 transition-colors uppercase tracking-wider"
+            >
+              Resume //
+            </a>
           </div>
 
           <div className="text-white/40 tracking-widest uppercase">

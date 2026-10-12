@@ -218,7 +218,7 @@ const Hero = () => {
             </p>
 
             {/* Action Button Set */}
-            <div className="hero-anim-item flex items-center gap-4 pt-2">
+            <div className="hero-anim-item flex flex-wrap items-center gap-4 pt-2">
               <a
                 href="#projects"
                 className="px-8 py-3.5 bg-white text-black font-bold text-xs uppercase tracking-widest rounded hover:bg-red-600 hover:text-white transition-all duration-300 shadow-[0_10px_35px_rgba(255,255,255,0.3)] flex items-center gap-2 hover:scale-105 active:scale-95"
@@ -238,6 +238,16 @@ const Hero = () => {
                   <line x1="12" y1="16" x2="12.01" y2="16" />
                 </svg>
                 Contact Me
+              </a>
+              <a
+                href="/Praveen_Naregalla_Resume.pdf"
+                download="Praveen_Naregalla_Resume.pdf"
+                className="px-8 py-3.5 bg-neutral-900/80 text-white border border-white/20 font-bold text-xs uppercase tracking-widest rounded hover:bg-neutral-800 transition-all duration-300 shadow-xl backdrop-blur-md flex items-center gap-2 hover:scale-105 active:scale-95"
+              >
+                <svg className="w-4 h-4 fill-none stroke-current stroke-2" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v12m0 0l-4-4m4 4l4-4M4 20h16" />
+                </svg>
+                Resume
               </a>
             </div>
           </div>
