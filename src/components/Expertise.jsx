@@ -8,29 +8,29 @@ const expertiseData = [
   {
     number: "01",
     title: "Frontend Development",
-    text: "Crafting responsive, high-fidelity user interfaces with React, modern JavaScript, Tailwind CSS, and buttery smooth GSAP motion interactions.",
+    text: "Crafting responsive, interactive and user-centric interfaces with React, JavaScript, HTML and CSS.",
     tag: "UI / UX & INTERACTION",
     gradient: "from-[#1f0a0c] via-[#121212] to-[#0a0a0a]"
   },
   {
     number: "02",
     title: "Backend Development",
-    text: "Architecting secure REST APIs, enterprise authentication pipelines, and scalable database schemas across PostgreSQL and MongoDB.",
+    text: "Building robust, scalable and secure backend architectures with Python and Django.",
     tag: "API & ARCHITECTURE",
     gradient: "from-[#1a0809] via-[#111111] to-[#090909]"
   },
   {
     number: "03",
-    title: "AI & Machine Learning",
-    text: "Integrating production-grade LLM workflows, predictive machine learning pipelines, and computer vision systems backed by AWS AI certification.",
+    title: "Machine Learning",
+    text: "Building machine learning models in Python and applying them to real problems, like detecting fake news.",
     tag: "INTELLIGENCE & ML",
     gradient: "from-[#220a0d] via-[#131313] to-[#0a0a0a]"
   },
   {
     number: "04",
-    title: "Cloud & Deployment",
-    text: "Deploying resilient, containerized multi-tenant services using Docker, GitHub Actions CI/CD workflows, and optimized cloud hosting.",
-    tag: "DEVOPS & CLOUD",
+    title: "Database Optimization",
+    text: "Designing schemas and optimizing SQL queries so applications stay fast as data grows.",
+    tag: "SQL & PERFORMANCE",
     gradient: "from-[#1d090b] via-[#101010] to-[#080808]"
   }
 ];
